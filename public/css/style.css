@@ -1,0 +1,226 @@
+* {
+    font-family: 'Muli', sans-serif;
+}
+
+#results-container {
+    background: #d3d3d3;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+#results-container>div, #login-container {
+    width: 350px;
+    height: 394px;
+    background: white;
+    border-radius: 5px;
+    margin: 20px;
+    -webkit-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+}
+
+#login-container {
+    padding: 15px;
+    margin: 40px auto;
+    height: auto;
+}
+
+#results-container>div>div.image {
+    width: 100%;
+    height: 45%;
+    border-radius: 5px 5px 0 0;
+}
+
+#results-container>div>div:nth-of-type(2) {
+    padding: 10px;
+    height: 170px;
+}
+
+#results-container>div>div:nth-of-type(3) {
+    padding: 0 10px 0 10px;;
+}
+
+#results-container h1 {
+    font-size: 35px;
+}
+
+#results-container h2 {
+    font-size: 15px;
+}
+
+#results-container p {
+    overflow: hidden;
+}
+
+body {
+    background: #d3d3d3;
+}
+
+.container {
+    padding-top: 20px;
+}
+
+div.container#business img {
+    float: right;
+    margin-left: 10px;
+    max-width: 50%;
+}
+
+div#search-container {
+    width: 500px;
+    margin: 20px auto;
+}
+
+#search-container input {
+    display: inline;
+    width: auto;
+}
+
+#home {
+    width: 80%;
+    margin: 20px auto;
+}
+
+#home .jumbotron {
+    background: url("https://housing.ufl.edu/wp-content/uploads/2017/08/Infinity-Hall-1.jpg");
+    background-size: cover;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+}
+
+.text-container {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+#home .jumbotron>h1 {
+    margin-bottom: 200px;
+}
+
+.container.row {
+    margin: 10px auto;
+    padding: 0;
+}
+
+.row>.col-md-6:first-of-type {
+    padding-right: 5px;
+}
+
+.row>.col-md-6:last-of-type {
+    padding-left: 5px;
+}
+
+div.col-md-6 {
+    padding: 0;
+}
+
+.tip-container {
+    border-top: 2px solid gray;
+    padding: 10px 0;
+}
+
+#new-tip {
+    margin-bottom: 10px;
+}
+
+#new-tip>input[type="text"] {
+    width: 79%;
+    border-radius: 0.25rem;
+    height: 38px;
+    border: 1px solid #d3d3d3;
+}
+
+#new-tip>input[type="submit"] {
+    width: 20%;
+    display: block;
+    float: right;
+}
+
+i.fa-star, i.fa-star-half-o {
+    color: yellow;
+}
+
+.rating {
+    background: white;
+    border-radius: 5px 0 5px 0;
+    width: auto;
+    padding: 5px;
+    display: inline-block;
+    box-shadow: 10px 9px 32px -15px rgba(0,0,0,0.87);
+}
+
+.rating>* {
+    margin: 0;
+    display: inline;
+}
+
+.user-input-row>div.col-md-3>div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.user-input-row>div.col-md-3>div>div {
+    padding: 0 5px;
+}
+
+.user-input-row h4 {
+    margin: 0;
+    min-width: 37px;
+}
+
+.question-card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+form.qanda {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+form.qanda textarea {
+    width: 80%;
+    border-radius: .25rem;
+    margin-right: 10px;
+}
+
+form.qanda input[type="submit"] {
+    width: 19%;
+}
+
+.question-card.question {
+    cursor: pointer;
+}
+
+.question-card.question:hover {
+    background: #e5e5e5;
+}
+
+.row {
+    margin: 0px;
+}
+
+.no-tips {
+    color: #a8a8a8;
+    text-align: center;
+    height: 65px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
