@@ -24,6 +24,7 @@
     padding: 15px;
     margin: 40px auto;
     height: auto;
+    
 }
 
 #results-container>div>div.image {
@@ -51,6 +52,7 @@
 
 #results-container p {
     overflow: hidden;
+    max-height: 50px;
 }
 
 body {
@@ -224,3 +226,4 @@ form.qanda input[type="submit"] {
     align-items: center;
     justify-content: center;
 }
+
