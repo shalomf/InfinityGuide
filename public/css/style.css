@@ -2,6 +2,7 @@
     font-family: 'Muli', sans-serif;
 }
 
+
 #results-container {
     background: #d3d3d3;
     display: flex;
@@ -58,6 +59,7 @@
 body {
     background: #d3d3d3;
 }
+
 
 .container {
     padding-top: 20px;
